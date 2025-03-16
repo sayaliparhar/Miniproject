@@ -1,0 +1,73 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "cloudtrail:GetChannel",
+                "cloudtrail:GetEventDataStoreData",
+                "cloudtrail:GetResourcePolicy",
+                "cloudtrail:LookupEvents",
+                "cloudtrail:GetTrail",
+                "cloudtrail:GetImport",
+                "cloudtrail:GetTrailStatus",
+                "cloudtrail:DescribeQuery",
+                "cloudtrail:ListImportFailures",
+                "cloudtrail:GetEventDataStore",
+                "cloudtrail:GetEventSelectors",
+                "cloudtrail:GetQueryResults",
+                "cloudtrail:DescribeTrails",
+                "cloudtrail:GetDashboard",
+                "cloudtrail:GenerateQueryResultsSummary",
+                "cloudtrail:ListPublicKeys",
+                "cloudtrail:GetServiceLinkedChannel",
+                "cloudtrail:ListTags",
+                "cloudtrail:SearchSampleQueries",
+                "cloudtrail:GetInsightSelectors"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Deny",
+            "Action": [
+                "cloudtrail:EnableFederation",
+                "cloudtrail:StartLogging",
+                "cloudtrail:StopLogging",
+                "cloudtrail:PutResourcePolicy",
+                "cloudtrail:RestoreEventDataStore",
+                "cloudtrail:StopEventDataStoreIngestion",
+                "cloudtrail:CreateDashboard",
+                "cloudtrail:CancelQuery",
+                "cloudtrail:StartDashboardRefresh",
+                "cloudtrail:RegisterOrganizationDelegatedAdmin",
+                "cloudtrail:UpdateDashboard",
+                "cloudtrail:UpdateChannel",
+                "cloudtrail:CreateChannel",
+                "cloudtrail:DeleteEventDataStore",
+                "cloudtrail:PutEventSelectors",
+                "cloudtrail:UpdateEventDataStore",
+                "cloudtrail:UpdateTrail",
+                "cloudtrail:StartEventDataStoreIngestion",
+                "cloudtrail:DeleteChannel",
+                "cloudtrail:DeleteResourcePolicy",
+                "cloudtrail:DeleteServiceLinkedChannel",
+                "cloudtrail:StopImport",
+                "cloudtrail:StartImport",
+                "cloudtrail:UpdateServiceLinkedChannel",
+                "cloudtrail:CreateEventDataStore",
+                "cloudtrail:PutInsightSelectors",
+                "cloudtrail:GenerateQuery",
+                "cloudtrail:CreateServiceLinkedChannel",
+                "cloudtrail:DeleteTrail",
+                "cloudtrail:CreateTrail",
+                "cloudtrail:DisableFederation",
+                "cloudtrail:DeregisterOrganizationDelegatedAdmin",
+                "cloudtrail:DeleteDashboard",
+                "cloudtrail:StartQuery"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
